@@ -63,3 +63,7 @@ The test suite exercises independent concurrent SQLite connections, persistence,
 ## Limitations
 
 This is a single-host queue for a trusted local environment. It has no HTTP server, authentication, distributed broker, process supervisor, metrics endpoint, or exactly-once delivery guarantee. Fencing protects database state; it does not prevent duplicated external side effects after a worker loses its lease. Handlers that call external services must supply their own idempotency. Long jobs must renew their lease using the library API. Stats report persisted state; expired running jobs are reclassified when a worker next claims work. Wall-clock jumps can affect leases.
+
+## Connect
+
+[LinkedIn — Abhijith Viswanathan](https://www.linkedin.com/in/abhijith-viswanathan-0a7216436/)
