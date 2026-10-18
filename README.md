@@ -2,7 +2,7 @@
 
 A Python and SQLite job queue that demonstrates how background work recovers after failure. Submit jobs with idempotency keys, run competing local workers, and inspect retries or dead-letter jobs. The included handlers transform text and sum numbers using synthetic inputs.
 
-**Status:** Implemented local portfolio project, created with Codex during this portfolio-building task. It has no production deployments or claimed real users. See [engineering notes](ENGINEERING.md) for design decisions and contribution guidance.
+**Status:** My implemented local portfolio project. It has no production deployments or claimed real users. See [engineering notes](ENGINEERING.md) for design decisions and contribution guidance.
 
 ## Quick start
 
@@ -67,3 +67,7 @@ This is a single-host queue for a trusted local environment. It has no HTTP serv
 ## Connect
 
 [LinkedIn — Abhijith Viswanathan](https://www.linkedin.com/in/abhijith-viswanathan-0a7216436/)
+
+## Development notes
+
+AI tools assisted with implementation, tests and documentation. This is my personal portfolio work; benchmark results and deployment boundaries are documented in the repository.
